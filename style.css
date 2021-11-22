@@ -1,0 +1,172 @@
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+body {
+    font-family: "Pathway Gothic One";
+    background-color: #f4f4f4;
+}
+body.dark-mode {
+    background-color: #1C1C1C;
+}
+
+main {
+    max-width: 900px;
+}
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+section {
+    display:flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+#container {
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 3px 8px -3px rgb(0 0 0 / 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container.dark-mode {
+    background-color: #363636;
+}
+
+div {
+    display: flex;
+    background: linear-gradient(0.25turn, rgb(28, 36, 134), #9198e5);
+    /* background-color: rgb(28, 36, 134); */
+    border-radius: 5px;
+    margin: 3px 0;
+    padding: 5px;
+    align-items:  center;
+}
+
+div:hover {
+    transform: scale(1.01, 1.01);
+}
+
+
+label:hover, input:hover {
+    cursor: pointer;
+}
+
+h3 {
+    background-color: rgb(102, 69, 221);
+    border-radius: 5px;
+    font-size: 1.7rem;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.dark-mode h1 {
+    color: #fff;
+}
+
+#labelDark {
+    color: #1C1C1C;
+}
+
+.option {
+    max-width: 900px;
+}
+
+label {
+    font-size: 1.5rem;
+    color: #fff;
+    width: 100%;
+}
+
+#secaoResultado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+button {
+    border: none;
+    border-radius: 2px;
+    padding: 6px;
+    color: #fff;
+    background-color: #4169E1;
+    font-size: 1.5rem;
+}
+
+button:hover {
+    background-color: #1E90FF;
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+}
+
+#dark {
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+}
+
+#boxImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    width: 300px;
+    height: 280px;
+}
+
+#frase, #tituloTipo {
+    background-color: #00000070;  
+    border-radius: 3px;
+    padding: 5px;  
+}
+
+.sumir {
+    display: none;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 5px;
+    font-weight: bold;
+    color: #fff;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 6px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#botaoNome, #escreverNome {
+    margin: 10px 0;
+}
+
+#nameMsg label {
+    background-color: #1C1C1C;
+    color: #fff;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+
+@media (min-width: 425px){
+    #boxImage {
+        width: 400px;
+        height: 300px;
+    }
+}
+@media (min-width: 780px){
+    #boxImage {
+        width: 900px;
+        height: 600px;
+    }
+}

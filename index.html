@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comic Villains</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="dark"></input>
+        <label for="dark" id="labelDark"></label>
+    </header>
+    <h1>Qual vilão dos Quadrinhos você seria?</h1>
+    <main id="container">
+    <form action="" id="formulario">
+        <section id="primeiraPergunta">
+            <h3>Porque você se tornaria um vilão?</h3>
+            <div class="option">
+                <input type="radio" name="opcaoA" id="cool" class="choose" value="0">
+                <label for="cool">Porque quero ver o circo pegar fogo</label>
+            </div>  
+            <div class="option"> 
+                <input type="radio" name="opcaoA" id="romance" class="choose" value="10">
+                <label for="romance">Porque quero me vingar desse mundo</label>
+            </div> 
+            <div class="option">   
+                <input type="radio" name="opcaoA" id="drama" class="choose" value="20">
+                <label for="drama">Porque quero alcançar meus objetivos e não me importo se eu ficar cohecido como vilão</label>
+            </div> 
+            <div class="option">   
+                <input type="radio" name="opcaoA" id="action" class="choose" value="30">
+                <label for="action">Porque quero derrubar os heróis</label>
+            </div>     
+        </section>
+        <section id="segundaPergunta">
+            <h3>Dentre essas opções, qual seria seu poder principal?</h3>
+            <div class="option">
+                <input type="radio" name="opcaoB" id="dance" class="choose" value="0">
+                <label for="dance">Imortalidade</label>
+            </div>  
+            <div class="option"> 
+                <input type="radio" name="opcaoB" id="shopping" class="choose" value="10">
+                <label for="shopping">Super força</label>
+            </div> 
+            <div class="option">   
+                <input type="radio" name="opcaoB" id="read" class="choose" value="20">
+                <label for="read">Super inteligência</label>
+            </div> 
+            <div class="option">   
+                <input type="radio" name="opcaoB" id="music" class="choose" value="30">
+                <label for="music">Super velocidade</label>
+            </div>     
+        </section>
+        <section id="terceiraPergunta">
+            <h3>Qual desses heróis você não gostaria de enfrentar?</h3>
+            <div class="option">
+                <input type="radio" name="opcaoC" id="catchAll" class="choose" value="0">
+                <label for="catchAll">Capitão América</label>
+            </div>  
+            <div class="option"> 
+                <input type="radio" name="opcaoC" id="catchRare" class="choose" value="10">
+                <label for="catchRare">Batman</label>
+            </div> 
+            <div class="option">   
+                <input type="radio" name="opcaoC" id="openGym" class="choose" value="20">
+                <label for="openGym">Homem Aranha</label>
+            </div> 
+            <div class="option">   
+                <input type="radio" name="opcaoC" id="winLeague" class="choose" value="30">
+                <label for="winLeague">Super-Man</label>
+            </div>
+        </section>
+        <section id="quartaPergunta">
+            <h3>E qual desses você mais gostaria de enfrentar?</h3>
+            <div class="option">
+                <input type="radio" name="opcaoD" id="join" class="choose" value="0">
+                <label for="join">Batman</label>
+            </div>  
+            <div class="option"> 
+                <input type="radio" name="opcaoD" id="hideFlee" class="choose" value="10">
+                <label for="hideFlee">Mulher Maravilha</label>
+            </div> 
+            <div class="option">   
+                <input type="radio" name="opcaoD" id="wait" class="choose" value="20">
+                <label for="wait">Homem de Ferro</label>
+            </div> 
+            <div class="option">   
+                <input type="radio" name="opcaoD" id="battle" class="choose" value="30">
+                <label for="battle">Flash</label>
+            </div>
+        </section>
+        <section id="quintaPergunta">
+            <h3>Qual desses planos malígnos mais combina com você?</h3>
+            <div class="option">
+                <input type="radio" name="opcaoE" id="prank" class="choose" value="0">
+                <label for="prank">Explodir uma cidade e fazer um herói matar sua esposa</label>
+            </div>  
+            <div class="option"> 
+                <input type="radio" name="opcaoE" id="stayQuiet" class="choose" value="10">
+                <label for="stayQuiet">Você reune outros iguais a você para criar um exército que quer acabar com os humanos comuns</label>
+            </div> 
+            <div class="option">   
+                <input type="radio" name="opcaoE" id="prepare" class="choose" value="20">
+                <label for="prepare">Acumular poder e dizimar metade do universo apenas para provar que você pode</label>
+            </div> 
+            <div class="option">   
+                <input type="radio" name="opcaoE" id="letsGo" class="choose" value="30">
+                <label for="letsGo">Você volta no tempo e mata a mãe do seu rival só para que ele sinta ódio de você</label>
+            </div>
+        </section>
+        <section id="sextaPergunta">
+            <h3>Qual esconderijo de vilão você mais gostaria de ter?</h3>
+            <div class="option">
+                <input type="radio" name="opcaoF" id="duende" class="choose" value="0">
+                <label for="duende">Um prédio luxuoso na cidade para ficar de olho em tudo que acontece nos arredores</label>
+            </div>  
+            <div class="option"> 
+                <input type="radio" name="opcaoF" id="elf" class="choose" value="10">
+                <label for="elf">Uma ilha isolada onde apenas os seus aliados poderiam entrar</label>
+            </div> 
+            <div class="option">   
+                <input type="radio" name="opcaoF" id="mermaid" class="choose" value="20">
+                <label for="mermaid">Uma nave espacial gigante que dá medo quando é vista</label>
+            </div> 
+            <div class="option">   
+                <input type="radio" name="opcaoF" id="dragon" class="choose" value="30">
+                <label for="dragon">Nenhum pois você não quer se esconder, os outros é que deveriam se esconder de você</label>
+            </div>
+        </section>
+        <section id="setimaPergunta">
+            <h3>Qual desses é o seu maior medo se você fosse um vilão?</h3>
+            <div class="option">
+                <input type="radio" name="opcaoG" id="japan" class="choose" value="0">
+                <label for="japan">Ser esquecido</label>
+            </div>  
+            <div class="option"> 
+                <input type="radio" name="opcaoG" id="eua" class="choose" value="10">
+                <label for="eua">Que seus aliados percebam que você está errado</label>
+            </div> 
+            <div class="option">   
+                <input type="radio" name="opcaoG" id="england" class="choose" value="20">
+                <label for="england">Não ser capaz de concluir seus objetivos de vida</label>
+            </div> 
+            <div class="option">   
+                <input type="radio" name="opcaoG" id="egypt" class="choose" value="30">
+                <label for="egypt">Que seu rival te derrote e fique ainda mais respeitado e admirado por todos</label>
+            </div>
+        </section>
+        <section id="secaoResultado">
+            <button type="submit" id="resultado">Ver resultado</button>
+        </section>
+    </form>
+    </main>
+        <section id="tipoDePokemon" class="sumir">
+            <div id="boxImage">
+                <div id="nomeDaPessoa"></div>
+                <h2 id="tituloTipo"></h2>
+                <p id="frase"></p>
+                <button type="reset" id="reset">Escolher de novo</button>
+            </div>
+        </section>
+        <section id="nameMsg" class="sumir">
+            <label for="escreverNome">Por favor, nos diga seu nome</label>
+            <input type="text" id="escreverNome" name="name" placeholder="nome">
+            <button type="submit" id="botaoNome">continuar</button>
+        </section>
+    <script src="./script.js"></script>
+</body>
+</html>
